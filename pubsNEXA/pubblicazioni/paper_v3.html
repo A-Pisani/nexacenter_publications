@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+        "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+      xmlns:fb="http://ogp.me/ns/fb#"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:article="http://ogp.me/ns/article#"
+      xmlns:book="http://ogp.me/ns/book#"
+      xmlns:profile="http://ogp.me/ns/profile#"
+      xmlns:video="http://ogp.me/ns/video#"
+      xmlns:product="http://ogp.me/ns/product#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="https://nexa.polito.it/nexafiles/contented7_favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Nexa Center for Internet &amp; Society | Il centro Nexa è un centro di ricerca del Dipartimento di Automatica e Informatica del Politecnico di Torino</title>
+   
+    <style type="text/css" media="all">
+        @import url("https://nexa.polito.it/modules/system/system.base.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/system/system.menus.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/system/system.messages.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/system/system.theme.css?pra7bu");
+    </style>
+    <style type="text/css" media="all">
+        @import url("https://nexa.polito.it/modules/aggregator/aggregator.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/book/book.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/comment/comment.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/date/date_api/date.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/field/theme/field.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/node/node.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/search/search.css?pra7bu");
+        @import url("https://nexa.polito.it/modules/user/user.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/calendar/css/calendar_multiday.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/views/css/views.css?pra7bu");
+    </style>
+    <style type="text/css" media="all">
+        @import url("https://nexa.polito.it/sites/all/modules/ctools/css/ctools.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/lightbox2/css/lightbox.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/oembed/oembed.base.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/oembed/oembed.theme.css?pra7bu");
+        @import url("https://nexa.polito.it/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?pra7bu");
+    </style>
+    <style type="text/css" media="all">
+        <!--/*--><![CDATA[/*><!--*/
+        #sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#3371a3;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#ffffff !important;}.eu-cookie-withdraw-tab{border-color:#ffffff;}.eu-cookie-compliance-more-button{color:#ffffff !important;}
+
+        /*]]>*/-->
+    </style>
+    <style type="text/css" media="screen">
+        @import url("https://nexa.polito.it/sites/nexa.polito.it/themes/nexad7/style.css?pra7bu");
+    </style>
+    <!--PART OF JS ADDED by me-->
+    <style>
+        /*div.publications-large-row-many div#block-views-papers-block-1 {*/
+            /*width: 550px;*/
+        /*}*/
+        .side {
+            height: 100%;
+            /*width: 90px;*/
+            position: -webkit-sticky;
+            z-index: 1;
+            top: 165px;
+            /*left: 800px;*/
+            /*background-color: white;*/
+            /*overflow-x: hidden;*/
+            padding-top: 0px;
+
+        }
+
+        .side a {
+            text-decoration: none;
+            color: #818181;
+            display: block;
+        }
+
+        .side a:hover {
+            color: deepskyblue;
+        }
+        .block ul li {
+            margin: 20px;
+            margin-left: 3px;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background-color: cornflowerblue;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+    <script src="js/irisJsonParser.js"></script>
+    <script src="js/renderPub-1.1.0.js"></script>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <!--END OF MY JS-->
+    <script type="text/javascript" src="https://nexa.polito.it/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/misc/jquery.once.js?v=1.2"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/misc/drupal.js?pra7bu"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/sites/all/modules/lightbox2/js/lightbox.js?pra7bu"></script>
+    <script type="text/javascript" src="https://nexa.polito.it/sites/all/modules/google_analytics/googleanalytics.js?pra7bu"></script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-18637556-4", {"cookieDomain":"auto"});ga("send", "pageview");
+        //--><!]]>
+    </script>
+    <script type="text/javascript" src="https://nexa.polito.it/sites/nexa.polito.it/themes/nexad7/js/scripts.js?pra7bu"></script>
+    <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexad7","theme_token":"WulOC4ujHjFIiKqe7m8RYkHpx1nglS3FUPhGAEe-Py8","js":{"0":1,"1":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/nexa.polito.it\/themes\/nexad7\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/oembed\/oembed.base.css":1,"sites\/all\/modules\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"0":1,"sites\/nexa.polito.it\/themes\/nexad7\/style.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":0,"loop_items":1,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0,"useragent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko\/20100101 Firefox\/66.0"},"themepath":"\/sites\/nexa.polito.it\/themes\/nexad7","populatemenu":"https:\/\/nexa.polito.it\/modules\/populatemenu","eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EQuesto sito utilizza i cookies, anche di terze parti, per assicurarti la migliore esperienza di navigazione. \u003C\/h2\u003E\n\u003Cp\u003ESe vuoi visualizzare tutti i contenuti del sito web, acconsenti all\u0027utilizzo dei cookies.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EPrivacy Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EOK, Accetto\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EPrivacy Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EOK, Accetto\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"95%","popup_delay":1000,"popup_link":"\/privacy","popup_link_new_window":0,"popup_position":null,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":1,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":1,"method":"opt_in","whitelisted_cookies":"has_js\r\ncookie-agreed","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experienceYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false},"googleanalytics":{"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/publications":true}});
+        //--><!]]>
+    </script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-publications" >
+<!--<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>-->
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+
+
+
+
+<div id="wrapper">
+    <div id="container" class="clear-block"><!-- begin container -->
+
+
+        <div id="header">
+
+
+            <div id="logo">
+                <a href="/" title="Nexa Center for Internet &amp; Society"><img src="https://nexa.polito.it/nexacenterfiles/logo.png" alt="Nexa Center for Internet &amp; Society" /></a>
+            </div>
+
+            <div id="slogan-floater"><!-- begin slogan-floater -->
+                <div class="region region-social-share">
+                    <div id="block-block-4" class="block block-block">
+
+
+                        <div class="content  headerMainMenuPage">
+
+                            <div class="feeds-header feed"><a href="/feed" title="RSS Feed"><img src="nexafiles/feed.png" alt="RSS Logo" border="0" /></a></div>
+                            <div class="feeds-header mail"><a href="/mailing-lists" title="Nexa Mailing Lists"><img src="nexafiles/mail.png" alt="Mail" border="0" /></a></div>
+                            <div class="feeds-header fb"><a href="http://facebook.com/nexa.center" title="Nexa Facebook" target="_TOP"><img src="nexafiles/fb.png" border="0" alt="Communia Facebook page" /></a></div>
+                            <div class="feeds-header tweet"><a href="http://twitter.com/nexacenter" title="Nexa Twitter" target="_TOP"><img src="nexafiles/tw.png" border="0" alt="Nexa twitter" /></a></div>
+                            <div class="feeds-header youtube"><a href="http://www.youtube.com/user/NexaCenter" title="Nexa YouTube" target="_TOP"><img src="nexafiles/you_tube.png" border="0" alt="Nexa youtube" /></a></div>
+                            <div class="feeds-header flickr"><a href="http://www.flickr.com/photos/nexa-center/" title="Nexa Flickr" target="_TOP"><img src="nexafiles/flickr2.png" border="0" alt="Nexa flickr" /></a></div>
+                            <div class="feeds-header github"><a href="https://github.com/nexacenter/" title="Github Feed"><img src="nexafiles/github.png" alt="github Logo" border="0" /></a></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <!--	<h1 class='site-name'><a href="/" title="Nexa Center for Internet &amp; Society">Nexa Center for Internet &amp; Society</a></h1>
+                -->
+            </div><!-- end slogan-floater -->
+
+            <div id="header-region" class="clear-block">
+                <div class="region region-header">
+                    <div id="block-system-main-menu" class="block block-system block-menu">
+
+
+                        <div class="content  headerMainMenu headerMainMenuPage">
+
+                            <ul class="menu"><li class="first collapsed"><a href="/get-involved" title="">Get Involved</a></li>
+                                <li class="leaf"><a href="/donate" title="">Donate</a></li>
+                                <li class="leaf"><a href="/contatti" title="">Contacts</a></li>
+                                <li class="collapsed"><a href="/newsroom" title="">Newsroom</a></li>
+                                <li class="collapsed"><a href="/events" title="">Events</a></li>
+                                <li class="leaf"><a href="/teaching">Teaching</a></li>
+                                <li class="expanded active-trail"><a href="/publications" title="" class="active-trail active">Publications</a><ul class="menu"><li class="first leaf"><a href="/openaccess" title="">Open Access</a></li>
+                                    <li class="leaf"><a href="/papers" title="">Papers</a></li>
+                                    <li class="leaf"><a href="/audio-video" title="">Audio Video</a></li>
+                                    <li class="leaf"><a href="/translations" title="">Translations</a></li>
+                                    <li class="last leaf"><a href="/nexa-planet" title="">Nexa Planet</a></li>
+                                </ul></li>
+                                <li class="collapsed"><a href="/research">Research</a></li>
+                                <li class="collapsed"><a href="/people" title="People">People</a></li>
+                                <li class="last collapsed"><a href="/about">About</a></li>
+                            </ul>  </div>
+
+
+                        <div class="headerMenuItem"><ul class="menu" id="sub_publications"><li class="first leaf"><a href="/openaccess" title="">Open Access</a></li>
+                            <li class="leaf"><a href="/papers" title="">Papers</a></li>
+                            <li class="leaf"><a href="/audio-video" title="">Audio Video</a></li>
+                            <li class="leaf"><a href="/translations" title="">Translations</a></li>
+                            <li class="last leaf"><a href="/nexa-planet" title="">Nexa Planet</a></li>
+                        </ul></div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div> <!-- /#header -->
+
+
+
+
+
+
+
+        <div id="center" style="float: left; width: 69%; box-sizing: border-box"><!-- begin center -->
+            <div id="squeeze"><!-- begin squeeze -->
+                <div class="tabs"></div>
+                <div class="clear-block">
+
+                    <div class="publications-large-row-many">
+                        <div class="region region-publications-blocks">
+
+                                <div id="block-views-papers-block-1" class="block block-views"  style="float: left; width: 80%; box-sizing: border-box">
+
+                                    <h2>Papers</h2>
+                                    <div class="content  headerMainMenuPage">
+
+
+
+
+                                            <div class="view-content">
+                                                <div id="publications">
+                                                    <!--IN HERE THERE WILL BE ALL THE PUBLICATIONS ORDERED BY YEAR.-->
+                                                    <!--DO YOU WANT ALL OF THEM OR YOU SIMPLY WANT FEW OF THEM AND -->
+                                                    <!--THEN THRU THE MORE LINK WE GO TO paper.html IN WHICH APPEAR -->
+                                                    <!--ALL PUBS BY YEAR?-->
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="more-link">
+                                                <a href="paper.html">
+                                                    more&gt;  </a>
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+
+                                </div>
+                                <div id="block-views-translations-block-1" class="block block-views" style="float: left; width: 20%; box-sizing: border-box">
+
+                                    <nav class="side">
+                                        <h2>Publications</h2>
+                                        <div id="summary" >
+                                            ...
+                                        </div>
+                                    </nav>
+
+                                </div>
+
+                        </div>
+                    </div>
+
+                    <div class="publications-large-row-single">
+                        <div class="region region-media">
+                            <div id="block-views-audio-video-2-block-1" class="block block-views">
+
+                                <h2>Audio/Video</h2>
+
+                                <div class="content  headerMainMenuPage">
+
+                                    <div class="view view-audio-video-2 view-id-audio_video_2 view-display-id-block_1 upcoming-events view-dom-id-faa34f7f9f187e96d88ca2ec6521d1c5">
+
+
+
+                                        <div class="view-content">
+                                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+
+                                                <span class="views-field views-field-field-link-video">        <span class="field-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/MCp9laZGLTs" frameborder="0" allowfullscreen=""></iframe></span>  </span>  </div>
+                                        </div>
+
+
+
+
+                                        <div class="more-link">
+                                            <a href="/audio-video">
+                                                more  </a>
+                                        </div>
+
+
+
+                                    </div>  </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div><!-- end squeeze -->
+
+            <!-- end small_sidebar -->
+
+        </div><!-- end center -->
+
+
+
+
+        <div id="sidebar-left" class="sidebar" ><!-- begin sidebar-left -->
+            <div class="region region-main-sidebar">
+                <div id="block-search-form" class="block block-search">
+
+                    <h2>search</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <form action="/publications" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+                            <div class="form-item form-type-textfield form-item-search-block-form">
+                                <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+                            </div>
+                            <div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-BwUjH2pMQo0WQPbzloSx3kh3cPJGiI61_059elTbZ74" />
+                            <input type="hidden" name="form_id" value="search_block_form" />
+                        </div>
+                        </div></form>  </div>
+
+
+
+                </div>
+                <div id="block-views-upcoming-events-block-1" class="block block-views">
+
+                    <h2>Upcoming events</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <div class="view view-upcoming-events view-id-upcoming_events view-display-id-block_1 upcoming-events view-dom-id-7e5a51bcc389ecf0b53045b317e40dbf">
+
+
+
+                            <div class="view-content">
+                                <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                    <div class="dateBox"><div class="dateBoxInside"><p>July</p><p>24</p><p>2019</p></div></div>
+
+                                    <div class="views-field-field-luogo">
+
+
+
+
+                                        <div class="views-field-field-luogo-value">Via Boggio 65/a | Torino (primo piano)</div>
+                                    </div>
+
+
+
+                                    <div class="views-field-title event-box-title">
+
+
+
+
+                                        <span class="field-content"><a href="/lunch-71">71° Nexa Lunch Seminar - The flight of drones in 2019</a></span>
+                                    </div>
+
+
+
+                                    <div class="views-field-body">
+
+
+
+
+			<span class="field-content">Per il ciclo di incontri “i Nexa Lunch Seminar” (ogni 4° mercoledì del mese)
+71° Nexa Lunch Seminar
+The flight of drones in 2019
+
+Giacomo Conti (...</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>  </div>
+
+
+
+                </div>
+                <div id="block-block-6" class="block block-block">
+
+                    <h2>join our community</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <p>Iscriviti alle nostre <a href="/mailing-lists">mailing lists</a>, <a href="/contact">contattaci</a>, esplora i nostri <a href="/teaching">corsi</a>, controlla le nostre <a href="/job-openings">offerte di lavoro</a>, compila il nostro <a href="/know-about-you">form</a> per essere aggiornato su future opportunità (come bandi per assegni o borse di ricerca).</p>
+                    </div>
+
+
+
+                </div>
+                <div id="block-views-featured-event-block-2" class="block block-views">
+
+                    <h2>Featured event</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <div class="view view-featured-event view-id-featured_event view-display-id-block_2 upcoming-events view-dom-id-f45130f5adf178e4567d4409c458c0dc">
+
+
+
+                            <div class="view-empty">
+                                <p>No upcoming events at the moment.</p>
+                            </div>
+
+
+
+
+
+
+                        </div>  </div>
+
+
+
+                </div>
+                <div id="block-block-2" class="block block-block">
+
+                    <h2>nexa planet</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <p><a href="/nexacenterfiles/ecs-opinion-on-eu-copyright-reform-def.pdf">Unification of copyright law</a> - European Copyright Society. Tra gli autori del testo della lettera inviata al Commissario per la "Digital Economy and Society" anche il Prof. Marco Ricolfi, co-direttore del Centro Nexa.</p>
+                        <p><a href="http://openthoughts-peerproduction.blogs.uoc.edu/peer-production-and-the-opportunities-and-struggles-of-constructing-a-more-humane-production-system/">Peer production and the opportunities and struggles of constructing a more humane production system</a>. Yochai Benkler, faculty co-director presso il Berkman Center e Garante del Centro Nexa, su peer production e open data.</p>
+                        <p><a href="/quintarelli-concorrenza-diritti">Diritti dei cittadini e delle imprese nel mondo progressivamente sempre più immateriale</a>. Le riflessioni di Stefano Quintarelli, Garante del Centro Nexa su Internet &amp; Società.</p>
+                        <p><a href="http://www.doppiozero.com/materiali/chefare/conversazione-con-philippe-aigrain">Conversazione con Philippe Aigrain</a>. Tiziano Bonini intervista per Doppio Zero il Garante del Centro Nexa a proposito dell'industria culturale nell'età della rete.</p>
+                        <p><a href="http://www.chefuturo.it/2014/10/come-vivere-e-invecchiare-al-meglio-e-perche-in-fondo-le-tecnoscienze-ci-salveranno-nel-futuro/">Il futuro dell’Europa è la Scienza. Per questo la nostra priorità adesso deve essere l’Etica</a>. Le riflessioni del Prof. Luciano Floridi, Garante del Centro Nexa, su "Che Futuro".</p>
+                        <!--
+
+                        <a href="/de-petra2014amministrazione"><p>Per una amministrazione nativa digitale: come fare a fare presto</a> - Intervento di Giulio De Petra al Convegno “Le politiche per l’Italia digitale” che si è svolto alla Camera il 14 marzo 2014 promosso dai gruppi parlamentari del Partito Democratico e di Sinistra Ecologia e Libertà.</p>
+                        <p><a href="http://harvardmagazine.com/2013/12/security-versus-freedom">NSA Surveillance, Snowden, and Freedom</a>, Harvard Magazine. Le riflessioni del prof. Yochai Benkler, Garante del Centro Nexa.</p>
+                        <p><a href="http://www.theguardian.com/commentisfree/2013/oct/08/nsa-bulk-metadata-surveillance-intelligence">Fact: the NSA gets negligible intel from Americans' metadata. So end collection</a>. Il prof. Yochai Benkler, Garante del Centro Nexa, a proposito del caso NSA.<br />
+                        <a href="http://www.theguardian.com/commentisfree/2013/jul/26/manning-snowden-us-better-self">Manning and Snowden light path for the US to return to its better self</a>. Il prof. Yochai Benkler,  Garante del Centro Nexa, discute sul Guardian i temi della sorveglianza e del whistleblowing.</p>
+                        <p><a href="http://www.lastampa.it/2013/05/07/blogs/web-notes/e-mobilitazione-contro-leggi-speciali-per-il-web-a-partire-dall-annunciato-regolamento-dell-agcom-sul-diritto-d-autore-wu8cbAzUw9hqVipzuYNZBO/pagina.html">E' mobilitazione contro leggi speciali per il web, a partire dal regolamento dell’Agcom sul diritto d'autore</a>. I dettagli della questione sul blog de La Stampa di Anna Masera, garante del Centro Nexa.</p>
+                        <p>"<a href="http://www.ilpost.it/carloblengino/2013/05/04/intervista-a-internet/">Intervista a Internet</a>". Articolo di Carlo Blengino, fellow del Centro Nexa, per Il Post. </p>
+                        <p>"<a href="http://blog.debiase.com/2013/05/media-civici-una-costellazione-di-iniziative-emergenti-il-codice-e-software-e-comportamento/">Media Civici, una costellazione di iniziative emergenti. Il codice è insieme software e regola di comportamento</a>". Le riflessioni di Luca De Biase, garante del Centro Nexa.</p>
+                        <p>"<a href="http://paigrain.debatpublic.net/?p=6871">Droit d'auteur, exploitation commerciale et pratiques non marchandes</a>". Contributo in francese di Philippe Aigrain, garante del Centro Nexa, in relazione a pratiche commerciali e non legate al diritto d'autore.<br />
+                        -->
+                        <p>Nexa-related blogs -- <a href="http://demartin.polito.it/">J.C. De Martin</a>, <a href="http://paigrain.debatpublic.net/">Philippe Aigrain</a>, <a href="http://blogs.law.harvard.edu/nesson/">Charles Nesson</a>, <a href="http://blog.debiase.com/">Luca De Biase</a>, <a href="http://www.volokh.com/author/davidp/">David Post</a> e <a href="http://blog.quintarelli.it/">Stefano Quintarelli</a>.</p>
+                        <!--
+
+                        <a href="http://cyber.law.harvard.edu/publications/2012/unlicensed_wireless_v_licensed_spectrum"><p>Open Wireless vs. Licensed Spectrum: Evidence from Market Adoption</a>. Il prof. Yochai Benkler, co-direttore del Berkman Center di Harvard e garante del Centro Nexa, analizza 8 mercati basati sull'utilizzo di reti wireless, evidenziando le differenze tra sistemi aperti e sistemi chiusi.</p>
+                        <p>"<a href="http://www.lastampa.it/2013/01/25/blogs/web-notes/internet-e-un-diritto-perderne-l-uso-e-come-perdere-l-uso-della-propria-auto-ylwGPiAeLSnPsFXnujKSsN/pagina.html">Internet è un diritto, perderne l'uso è come perdere l'uso della propria auto</a>". Dal blog di <a href="/people/amasera">Anna Masera</a>, garante del Centro Nexa.</p>
+                        <p>"<a href="http://www.ilpost.it/carloblengino/2013/01/21/corsari_pubblicodominio/">Corsari francesi all’attacco del Pubblico Dominio</a>". Articolo dell'avvocato <a href="/people/cblengino">Carlo Blengino</a>, fellow del Centro Nexa, per <a href="http://www.ilpost.it/">Il Post</a>. Su questo tema è inoltre disponibile una <a href="http://paigrain.debatpublic.net/?p=6333">riflessione</a> (in francese) del garante del Centro Nexa, <a href="/people/paigrain">Philippe Aigrain</a>.</p>
+                        <!--<p><p>Traduzioni Nexa -- <a href="/come-funziona-internet">Come funziona Internet?</a></p>
+                        <p>Nexa  Audio/Video -- <a href="/2012-frischmann">Infrastructure: The Social Value of Shared Resources (Brett Frischmann, Yeshiva University )</a></p>
+                        <p> -->
+                        <p align="right"><a href="/nexa-planet-news">more &gt;</a></p>
+                    </div>
+
+
+
+                </div>
+                <div id="block-block-12" class="block block-block">
+
+                    <h2>recommended links</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <p>readings &amp; links -- <a href="/recommended-readings">letture selezionate per comprendere Internet</a></p>
+                    </div>
+
+
+
+                </div>
+                <div id="block-block-8" class="block block-block">
+
+                    <h2>project keywords</h2>
+
+                    <div class="content  headerMainMenuPage">
+
+                        <dl><dd><a href="/psi">public sector innovation</a></dd>
+                            <dd><a href="/open-culture">public domain, the commons and open access</a></dd>
+                            <dd><a href="/internet-monitoring">internet monitoring and analysis</a></dd>
+                            <dd><a href="/internet-and-democracy">fundamental rights online &amp; digital citizenship</a></dd>
+                        </dl><!--<dl><dd><a href="anonimity-open-wifi">anonimity online</a></dd>
+<dd><a href="/biennaledemocrazia">internet e democrazia</a></dd>
+<dd><a href="http://communia-project.eu">communia EU thematic network</a></dd>
+<dd><a href="http://creativecommons.it/">creative commons italia</a></dd>
+<dd><a href="/webgeography">web geography</a></dd>
+<dd><a href="/neubot">network neutrality bot (NeuBot)</a></dd>
+<dd><a href="http://selili.polito.it/">servizio licenze libere</a></dd>
+<dd><a href="universita-aperta">university and democracy</a></dd>
+<dd><a href="/cloud-computing">cloud computing</a></dd>
+</dl>
+<p>-->  </div>
+
+
+
+                </div>
+            </div>
+        </div><!-- end sidebar-left -->
+
+
+
+        <div id="footer">
+            <div class="region region-footer">
+                <div id="block-block-15" class="block block-block">
+
+
+                    <div class="content  headerMainMenuPage">
+
+                        <div class="footer-box" id="footer-first">
+                            Nexa Center for Internet &amp; Society<br /><a href="/contacts">Via Boggio, 65/a</a> 10138 Torino, Italy<br />
+                            Ph. +39 011 090 7217 | Fax +39 011 090<br />
+                            7216 | email: info [at] nexa [dot] polito<br />
+                            [dot] it
+                        </div>
+                        <div class="footer-box" id="footer-second">
+                            Il Centro Nexa è un centro di ricerca<br />
+                            del <a href="http://www.dauin.polito.it">Dipartimento di Automatica e<br />
+                            Informatica</a> del <a href="http://www.polito.it">Politecnico di Torino</a>.
+                        </div>
+                        <div class="footer-box" id="footer-third">
+                            <em>Tranne dove <a href="/credits">altrimenti indicato</a>, il<br />
+                                contenuto di questo sito è rilasciato<br />
+                                secondo i termini della <a rel="licenza" href="http://creativecommons.org/licenses/by/3.0/deed.it">licenza Creative<br />
+                                    Commons Attribuzione 3.0 Unported</a>. / Unless otherwise noted this</em>
+                        </div>
+                        <div class="footer-box" id="footer-fourth">
+                            <em>site and its contents are licensed<br />
+                                under the </em><a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+                            <p><a href="/credits">Credits</a> <a class="creative-commons" rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a></p>
+                            <p><a href="/privacy">Policy sull'utilizzo dei cookie</a></p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div> <!-- /#footer -->
+
+    </div></div> <!--  /#wrapper, /#container -->
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    function euCookieComplianceLoadScripts() {var scriptTag = document.createElement("script");scriptTag.src = "https:\/\/www.google-analytics.com\/analytics.js";document.body.appendChild(scriptTag);}
+    //--><!]]>
+</script>
+<script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var eu_cookie_compliance_cookie_name = "";
+    //--><!]]>
+</script>
+<script type="text/javascript" src="https://nexa.polito.it/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?pra7bu"></script>
+</body>
+</html>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

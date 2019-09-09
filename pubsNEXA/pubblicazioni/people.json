@@ -1,0 +1,24 @@
+{"people":[
+  {"first": "Eleonora","last":"Bassi","id":"028950","current":true},
+  {"first": "Elena","last":"Beretta","id":"046151","current":true},
+  {"first": "Marco","last":"Conoscenti","id":"038486","current":true},
+  {"first": "Juan, Carlos","last":"De Martin","id":"004620","current":true},
+  {"first": "Giuseppe","last":"Futia","id":"028037","current":true},
+  {"first": "Antonio Dante Maria","last":"Santangelo","id":"033517","current":true},
+  {"first": "Antonio","last":"Servetti","id":"004112","current":true},
+  {"first": "Antonio","last":"Vetrò","id":"016873","current":true},
+  {"first": "Selina","last":"Fenoglietto","id":"023390","current":true},
+  {"first": "Giovanni","last":"Garifo","id":"043670","current":true},
+  {"first": "Mattia","last":"Plazio","id":"043725","current":true},
+  {"first": "Francesco","last":"Ruggiero","id":"042339","current":true},
+  {"first": "Pasquale","last":"Pellegrino","id":"042817","current":true},
+  {"first": "Alessandro","last":"Mantelero","id":"011814","current":true},
+  {"first": "Federico","last":"Cairo","id":"007029","current":true},
+  {"first": "Luca","last":"Leschiutta","id":"010650","current":true},
+  {"first": "Lorenzo","last":"Canova","id":"018913","current":true},
+  {"first": "Raimondo","last":"Iemma","id":"014877","current":true},
+  {"first": "Alessandro","last":"Melandri","id":"022381","current":true},
+  {"first": "Federico","last":"Morando","id":"003117","current":true}
+],
+  "courses":[
+  ]}

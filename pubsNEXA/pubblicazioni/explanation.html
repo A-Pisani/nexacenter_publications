@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explanation</title>
+</head>
+<body style="margin: 30px">
+<h1 style="color: deepskyblue">Publications</h1>
+<ol>
+    <li>All’interno della cartella pubblications è presente uno script chiamato <strong>pubb.sh</strong> tramite il quale è possibile, dato
+      un file json contenente le informazioni sui membri di NEXA (vedi <strong>people.json</strong>), ottenere per ognuno dei membri un
+      file in formato json (vedi <em>001921.json</em> per esempio) contenente tutte le pubblicazioni con le informazioni dettagliate.
+  </li>
+    <br>
+    <li>
+        Affinchè i file in formato json per ogni membro siano sempre aggiornati va eseguito lo script periodicamente in
+        modo da recuperare dal sito <em>IRIS</em> del politecnico tutte le ultime pubblicazioni.
+    </li>
+    <br>
+    <li>
+        Gli script javascript che si occupano della creazione del contenuto html sono contenute nella cartella js e sono
+        <strong>irisJsonParser.js</strong> e <strong>renderPub-1.1.0.js</strong> in particolare in quest’ultimo da riga 115 a 151 è presente il dom che si
+        occupa della creazione del contenuto diviso per anni e poi per tipo di pubblicazione e la creazione della lista
+        non ordinata contenente gli anni di pubblicazione e i link ai rispettivi punti della pagina html.
+    </li>
+    <br>
+    <li>
+        L’elemento all’interno del quale verrà generato il tutto è un div all’interno del body con <em>id=’publications’</em> per
+        le pubblicazioni e div all’interno del body con <em>id=’summary’</em> come si può notare rispettivamente a riga 57 e 151
+        di renderPub-1.1.0.js.
+        Il file html definitivo è <strong>paper_v3.html</strong> in cui da riga 52 a 117 sono stati inseriti i collegamenti agli script
+        javascript menzionati nel punto 2, nel file html <strong>paper.html</strong> non è invece presente la barra di navigazione
+        verticale con gli anni.
+    </li>
+    <br>
+</ol>
+
+<strong>Nota.</strong> Il file json chiamato people.json deve essere strettamente nel formato presentato altrimenti la <em>grep</em> del file bash fallisce.
+
+</body>
+</html>
